@@ -1,0 +1,71 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 95%;
+}
+.ul-header {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+}
+
+.logo{
+ width: 150px
+}
+    
+.hero-img{
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    display: flex;
+    outline: solid red 1px;
+    
+}
+.my-face{
+    height: 400px;
+}
+.about-text{
+    width: 500px;
+    
+}
+.resume-button{
+    width: 75px;
+    height: 75px;
+    
+    
+}
+.content-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+    background-color: #373738;
+    padding: 25px;
+}
+.ul-footer{
+    list-style: none;
+    color: white
+}
+
+.content-info img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 374px;
+    left: 378px;
+    animation: spin 3s ease;
+
+}
+@keyframes spin {
+    0% {transform: rotate(180deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(720deg);}
+}
